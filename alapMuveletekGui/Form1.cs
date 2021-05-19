@@ -17,22 +17,22 @@ namespace alapMuveletekGui
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnSzorzas_Click(object sender, EventArgs e)
         {
             KerdesBox.Text = "10 * 5";
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnOsszeadas_Click(object sender, EventArgs e)
         {
             KerdesBox.Text = "10 + 5";
         }
 
-        private void KivonasGomb_Click(object sender, EventArgs e)
+        private void btnKivonas_Click(object sender, EventArgs e)
         {
             KerdesBox.Text = "10 - 5";
         }
 
-        private void OsztasGomb_Click(object sender, EventArgs e)
+        private void btnOsztas_Click(object sender, EventArgs e)
         {
             KerdesBox.Text = "10 / 5";
         }
