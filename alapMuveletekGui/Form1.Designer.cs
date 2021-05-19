@@ -117,7 +117,7 @@ namespace alapMuveletekGui
             this.OsztasGomb.TabIndex = 8;
             this.OsztasGomb.Text = "/";
             this.OsztasGomb.UseVisualStyleBackColor = true;
-            this.OsztasGomb.Click += new System.EventHandler(this.OsztasGomb_Click);
+            this.OsztasGomb.Click += new System.EventHandler(this.btnOsztas_Click);
             // 
             // KivonasGomb
             // 
@@ -128,7 +128,7 @@ namespace alapMuveletekGui
             this.KivonasGomb.TabIndex = 7;
             this.KivonasGomb.Text = "-";
             this.KivonasGomb.UseVisualStyleBackColor = true;
-            this.KivonasGomb.Click += new System.EventHandler(this.KivonasGomb_Click);
+            this.KivonasGomb.Click += new System.EventHandler(this.btnKivonas_Click);
             // 
             // OsszeadasGomb
             // 
@@ -139,7 +139,7 @@ namespace alapMuveletekGui
             this.OsszeadasGomb.TabIndex = 6;
             this.OsszeadasGomb.Text = "+";
             this.OsszeadasGomb.UseVisualStyleBackColor = true;
-            this.OsszeadasGomb.Click += new System.EventHandler(this.button2_Click);
+            this.OsszeadasGomb.Click += new System.EventHandler(this.btnOsszeadas_Click);
             // 
             // SzorzasGomb
             // 
@@ -150,7 +150,7 @@ namespace alapMuveletekGui
             this.SzorzasGomb.TabIndex = 5;
             this.SzorzasGomb.Text = "*";
             this.SzorzasGomb.UseVisualStyleBackColor = true;
-            this.SzorzasGomb.Click += new System.EventHandler(this.button1_Click);
+            this.SzorzasGomb.Click += new System.EventHandler(this.btnSzorzas_Click);
             // 
             // label2
             // 
