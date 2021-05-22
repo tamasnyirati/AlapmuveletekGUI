@@ -16,6 +16,9 @@ namespace alapMuveletekGui
         {
             InitializeComponent();
         }
+            Random rnd = new Random();
+            int szam1;
+            int szam2;
 
         private void btnSzorzas_Click(object sender, EventArgs e)
         {
@@ -24,7 +27,9 @@ namespace alapMuveletekGui
 
         private void btnOsszeadas_Click(object sender, EventArgs e)
         {
-            KerdesBox.Text = "23 + 4";
+            szam1 = rnd.Next(1, 100);
+            szam2 = rnd.Next(1, 100);
+            KerdesBox.Text = $"{szam1.ToString()} + {szam2.ToString()}";
         }
 
         private void btnKivonas_Click(object sender, EventArgs e)
